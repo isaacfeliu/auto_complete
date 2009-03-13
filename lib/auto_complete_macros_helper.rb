@@ -77,7 +77,7 @@ module AutoCompleteMacrosHelper
 
     function << (', ' + options_for_javascript(js_options) + ')')
 
-    javascript_tag(function)
+    javascripts { function }
   end
   
   # Use this method in your view to generate a return for the AJAX autocomplete requests.
